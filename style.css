@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+header {
+  background-color: #0b1c51;
+  margin-bottom: 40px;
+  padding: 20px 10px;
+}
+
+h1 {
+  font-size: 52px;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 15px 0 0 0;
+  padding: 0;
+  justify-content: center;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 15px;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+  header h1 {
+    margin: 0;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  header nav ul {
+    margin: 0;
+  }
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+}
